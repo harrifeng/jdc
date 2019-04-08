@@ -30,6 +30,5 @@ dependencies {
   testCompile 'junit:junit:4.12'
 }
 
-// Define the main class for the application
-mainClassName = 'App'
-
+// Define the main class for Emacs to use
+mainClassName = System.getProperty("mainClass")
